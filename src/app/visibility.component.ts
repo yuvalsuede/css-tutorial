@@ -15,10 +15,10 @@ import { Component, OnInit } from '@angular/core';
                         
             <div class="col-md-6">
                 <div class="jumbotron">
-                    <div class="btn btn-warning" (click)="toggleDisplay()">display:none</div>
-                    <div class="btn btn-warning" (click)="toggleVisibility()">visibility:hidden</div>
-                    <div class="btn btn-warning" (click)="toggleOpacity()">opacity:0</div>
-                    <div class="btn btn-warning" (click)="toggleDOM()">*ngIf</div>                                                            
+                    <div class="btn btn-warning" (click)="toggleDisplay()">display:{{display}}</div>
+                    <div class="btn btn-warning" (click)="toggleVisibility()">visibility:{{visibility}}</div>
+                    <div class="btn btn-warning" (click)="toggleOpacity()">opacity:{{opacity}}</div>
+                    <div class="btn btn-warning" (click)="toggleDOM()">*ngIf = {{inDOM}}</div>                                                            
                 </div>
             </div>
         

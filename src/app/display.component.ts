@@ -18,9 +18,9 @@ import { Component, OnInit } from '@angular/core';
                         [style.justify-content]="_justifyContent"
                         [style.align-items]="_alignItems"
                         >
-                    <div *ngFor="let square of _squares" class="child" [style.display]="ChildrenDisplay" [style.flex-grow]="_flexGrow"></div>                   
+                    <div *ngFor="let square of _squares" class="child" [style.display]="ChildrenDisplay" [style.flex-grow]="_flexGrow">box</div>                   
                     <div style="background:cadetblue;" class="child" [style.display]="ChildrenDisplay" [style.flex-grow]="_flexGrow2 || _flexGrow">
-                    </div>        
+                    box</div>        
                 </div>
             </div>
         </div>
