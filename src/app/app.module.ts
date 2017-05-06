@@ -53,7 +53,7 @@ const routes:any[] = [
     FormsModule,
     HttpModule,
 
-    RouterModule.forRoot(routes, {useHash: false})
+    RouterModule.forRoot(routes, {useHash: true})
   ],
   providers: [],
   exports: [Safe],
